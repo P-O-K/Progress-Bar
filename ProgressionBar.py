@@ -1,6 +1,4 @@
 
-from os import system
-
 class ProgressionBar:
 
     _totalIteration     :int;
@@ -29,59 +27,3 @@ if __name__ == '__main__':
     for i in range( 1, maxIter ):
         bar.progress( i );
         sleep( 0.01 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import sys
-
-
-# class ProcessArguments:
-
-#     _DIRECTORY  :str    = sys.argv[ 0 ]
-#     _FILENAME   :str    = 'QuickNote'
-#     _EXTENSION  :str    = '.txt'
-#     _SOFTWARE   :str    = 'Notepad'
-
-#     def __init__( self, args ):
-#         print( args )
-
-# arguments = ProcessArguments( sys.argv )
-
-# import subprocess
-# import pandas
-
-# cmd = 'wmic process get description, processid '
-# proc = subprocess.run( cmd, shell=True, stdout=subprocess.PIPE )
-# #print( proc )
